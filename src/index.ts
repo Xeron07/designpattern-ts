@@ -1,3 +1,4 @@
-const abc = () => {
-  return 10 * 12;
-};
+import Main from "./strategyPattern/main";
+
+let mainClass = new Main();
+mainClass.main();
